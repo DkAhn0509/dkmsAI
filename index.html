@@ -9,7 +9,9 @@
   <!-- 2. Code.gs가 해주던 브라우저 탭 제목 설정 -->
   <title>AI로 과학 콘텐츠 만들기</title>
   
- /* 전체 기본 설정 (더 밝고 부드러운 배경색) */
+  <!-- 👇 여기에 <style> 태그를 추가하여 디자인 코드를 감쌌습니다. 👇 -->
+  <style>
+    /* 전체 기본 설정 (더 밝고 부드러운 배경색) */
     body {
       margin: 0;
       padding: 0;
@@ -131,6 +133,9 @@
       cursor: pointer;
       box-shadow: 0 4px 10px rgba(14, 165, 233, 0.3);
     }
+  </style>
+  <!-- 👆 여기까지 <style> 태그로 닫았습니다. 👆 -->
+
 </head>
 <body>
 
@@ -154,7 +159,7 @@
         author: "10124 임지안",
         desc: "자석 우주선을 키보드 방향키로 조종하여 다양한 장애물과 낙사 구역을 피해 목표 지점까지 도달하는 2D 아케이드 레이싱 게임입니다.",
         reflection: "무료 버전으로도 꽤 높은 완성도의 게임을 만들 수 있어서 놀라웠고, 향후에도 AI를 활용해 여러 콘텐츠들을 만들어보고 싶습니다.",
-        img: "https://i.postimg.cc/hjrpbNsH/imiji1.png", // 여기에 복사해둔 이미지 주소를 넣으세요.
+        img: "https://i.postimg.cc/hjrpbNsH/imiji1.png", 
         link: "https://script.google.com/macros/s/AKfycbyw95huru-NEeA-z4rPeao0DEFcnXce0dBVkA0dvVzQiQTXpDkAoj5w0FtJICSQawg0Ww/exec"
       },
       {
@@ -232,6 +237,5 @@
     // 페이지 로딩 시 실행
     window.onload = renderCards;
   </script>
-  <!-- 기존 Index.html에 있던 <script> 태그가 있다면 여기에 위치합니다 -->
 </body>
 </html>
